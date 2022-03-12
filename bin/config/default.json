@@ -1,0 +1,5 @@
+{
+    "mongodb": {
+        "host": "mongodb.simple-nodejs.svc.cluster.local:27017"
+    }
+}
