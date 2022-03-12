@@ -6,7 +6,6 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var hcomRouter = require('./routes/hcom');
 var swRouter = require('./routes/sw');
 var healthRouter = require('./routes/health');
 
@@ -55,7 +54,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/hcom', hcomRouter);
 app.use('/sw', swRouter);
 app.use('/health', healthRouter);
 
