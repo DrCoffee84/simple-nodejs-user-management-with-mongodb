@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Cloning our Git') {
             steps {
-                git 'https://github.com/DrCoffee84/simple-nodejs-user-management-with-mongodb.git'
+                git branch: 'main', url: 'https://github.com/DrCoffee84/simple-nodejs-user-management-with-mongodb.git'
             }
         }
         stage('Building our image') {

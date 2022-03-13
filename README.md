@@ -27,5 +27,5 @@ curl --location --request POST 'localhost:3000/users' \
 Verify that there is a connection to the db
 
 ```bash
-curl --location --request GET 'localhost:3000:3000/health'
+curl --location --request GET 'localhost:3000/health'
 ```
