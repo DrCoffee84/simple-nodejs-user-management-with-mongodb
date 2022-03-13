@@ -1,5 +1,5 @@
 # Simple nodejs user management with mongodb
-
+simple-nodejs-user-management-with-mongodb
 ## How to use 
 
 ### Get User
